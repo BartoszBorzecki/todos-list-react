@@ -1,3 +1,5 @@
+import Form from "./Form";
+
 const tasks = [
   { id: 1, content: "zjeść obiad", done: false },
   { id: 2, content: "pójść na spacer", done: true },
@@ -14,10 +16,7 @@ function App() {
       </header>
       <section className="section">
         <h2 className="section__header">Dodaj nowe zadanie</h2>
-        <form className="form">
-          <input className="form__input" autofocus required placeholder="Co jest do zrobienia?" />
-          <button className="form__button">Dodaj zadanie</button>
-        </form>
+        <Form />
       </section>
       <section className="section">
         <div className="section__container">
