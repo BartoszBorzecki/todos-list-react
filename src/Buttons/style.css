@@ -1,0 +1,27 @@
+.section__button {
+    background-color: transparent;
+    border: none;
+    color: teal;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.section__button:disabled {
+    color: hsl(0, 0%, 87%);
+    cursor: default;
+}
+
+.listButtons {
+    padding: 15px;
+}
+
+@media (max-width: 767px) {
+    .section__button {
+        padding: 10px;
+        width: 100%;
+    }
+}
