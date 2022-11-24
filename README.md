@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://bartoszborzecki.github.io/My_to_do_list/
+https://bartoszborzecki.github.io/todos-list-react/
 
 ## Description
 
