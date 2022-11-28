@@ -17,6 +17,10 @@ Here you can create your own list of tasks. You can add new tasks, mark off task
 - JavaScript;
 - BEM;
 - MARKDOWN;
+- React;
+- create-react-app;
+- Babel;
+- webpack;
 
 ## More information
 
