@@ -7,7 +7,7 @@ const Buttons = (props) => (
             className="listButtons__button"
             disabled={props.tasks.some(({ done }) => !done)}
             >
-                     {props.hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}
+                     {props.hideDone ? "Pokaż ukończone" : "Ukryj ukończone"}
             </button>
             <button 
             className="listButtons__button"
